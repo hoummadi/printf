@@ -35,3 +35,11 @@ The following format specifiers are supported:
 | #     | Used with o, b, x or X specifiers the value is preceded with 0, 0b, 0x or 0X respectively for values different than zero.<br>Used with f, F it forces the written output to contain a decimal point even if no more digits follow. By default, if no digits follow, no decimal point is written. |
 | 0     | Left-pads the number with zeros (0) instead of spaces when padding is specified (see width sub-specifier). |
 
+
+### Supported Width
+
+| Width    | Description |
+|----------|-------------|
+| (number) | Minimum number of characters to be printed. If the value to be printed is shorter than this number, the result is padded with blank spaces. The value is not truncated even if the result is larger. |
+| *        | The width is not specified in the format string, but as an additional integer value argument preceding the argument that has to be formatted. |
+
