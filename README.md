@@ -52,4 +52,6 @@ The following format specifiers are supported:
 | .*        | The precision is not specified in the format string, but as an additional integer value argument preceding the argument that has to be formatted. |
 
 
+
 **MORE INFORMATION** https://github.com/mpaland/printf/blob/master/README.md
+
